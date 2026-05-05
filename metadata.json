@@ -1,0 +1,6 @@
+{
+  "name": "Ijazah Upload Portal",
+  "description": "A professional portal for students to verify data and upload their ijazah photos directly to Google Drive and Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

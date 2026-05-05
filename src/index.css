@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --radius-xl-plus: 1.5rem;
+  --radius-2xl-plus: 2rem;
+  --radius-3xl-plus: 3rem;
+}
+
+body {
+  @apply min-h-screen text-slate-800 font-sans antialiased;
+  background-color: #f0f4f8;
+  background-image: 
+    radial-gradient(at 0% 0%, #dbeafe 0, transparent 50%), 
+    radial-gradient(at 50% 0%, #e0e7ff 0, transparent 50%), 
+    radial-gradient(at 100% 0%, #fae8ff 0, transparent 50%);
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-xl border border-white/40 shadow-2xl;
+}
+
+.glass-panel {
+  @apply bg-white/40 backdrop-blur-md border border-white/30 shadow-lg;
+}
+
+.glass-input {
+  @apply bg-white/60 border border-slate-200 focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all;
+}
